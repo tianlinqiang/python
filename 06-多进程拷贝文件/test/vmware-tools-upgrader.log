@@ -1,0 +1,8 @@
+2018年 05月 16日 星期三 23:39:28 CST
+Executing "./vmware-tools-upgrader-64  -p --default --force-install"
+2018-05-16T23:39:28+08:00| Upgrader: To VMX: tools.capability.hgfs_server tools-upgrader 1
+2018-05-16T23:39:28+08:00| Upgrader: To VMX: guest.upgrader_send_cmd_line_args --default --force-install
+2018-05-16T23:39:28+08:00| Upgrader: To VMX: upgrader.setGuestFileRoot /tmp/vmware-root/58511e07/
+2018-05-16T23:39:28+08:00| RPC greeting failed: Host software version may not be compatible with the Upgrader.
+2018-05-16T23:39:28+08:00| Setting temp directory root failed.
+2018-05-16T23:39:28+08:00| Upgrader: To VMX: tools.capability.hgfs_server tools-upgrader 0

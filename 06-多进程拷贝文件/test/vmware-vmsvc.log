@@ -1,0 +1,439 @@
+[5月 17 22:22:10.683] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[5月 17 22:22:10.683] [ message] [vmsvc] Core dump limit set to -1
+[5月 17 22:22:10.750] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[5月 17 22:22:10.750] [ message] [vmsvc] Core dump limit set to -1
+[5月 17 22:22:10.750] [ message] [vmtoolsd] Tools Version: 10.2.0.7047 (build-7259539)
+[5月 17 22:22:10.930] [ message] [vmsvc] Cannot load message catalog for domain 'hgfsServer', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:22:10.930] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[5月 17 22:22:10.930] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[5月 17 22:22:10.930] [ message] [vmsvc] Cannot load message catalog for domain 'vix', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:22:10.930] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[5月 17 22:22:10.930] [ message] [vmsvc] Cannot load message catalog for domain 'autoUpgrade', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:22:10.930] [ message] [vmtoolsd] Plugin 'autoUpgrade' initialized.
+[5月 17 22:22:10.930] [ message] [vmsvc] Cannot load message catalog for domain 'deployPkg', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:22:10.930] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[5月 17 22:22:10.941] [ message] [vmsvc] Cannot load message catalog for domain 'grabbitmqProxy', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:22:10.941] [ message] [vmtoolsd] Plugin 'grabbitmqProxy' initialized.
+[5月 17 22:22:10.941] [ message] [vmsvc] Cannot load message catalog for domain 'guestInfo', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:22:10.941] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[5月 17 22:22:10.941] [ message] [vmsvc] Cannot load message catalog for domain 'powerops', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:22:10.941] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[5月 17 22:22:10.943] [ message] [resolutionCommon] resolutionCheckForKMS: dlopen succeeded.
+[5月 17 22:22:11.032] [ message] [resolutionCommon] resolutionCheckForKMS: System support available for resolutionKMS.
+[5月 17 22:22:11.032] [ message] [vmsvc] Cannot load message catalog for domain 'resolutionKMS', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:22:11.032] [ message] [vmtoolsd] Plugin 'resolutionKMS' initialized.
+[5月 17 22:22:11.032] [ message] [vmsvc] Cannot load message catalog for domain 'timeSync', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:22:11.032] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[5月 17 22:22:11.032] [ message] [vmsvc] Cannot load message catalog for domain 'vmbackup', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:22:11.032] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[5月 17 22:22:11.055] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[5月 17 22:22:11.109] [ message] [vix] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[5月 17 22:22:11.110] [ message] [powerops] Executing script: '/etc/vmware-tools/resume-vm-default'
+[5月 17 22:22:11.469] [ message] [powerops] Script exit code: 0, success = 1
+[5月 17 22:28:39.028] [ message] [powerops] Executing script: '/etc/vmware-tools/poweroff-vm-default'
+[5月 17 22:28:39.060] [ message] [powerops] Script exit code: 0, success = 1
+[5月 17 22:28:39.061] [ message] [powerops] Initiating reboot.
+[5月 17 22:29:26.898] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[5月 17 22:29:26.898] [ message] [vmsvc] Core dump limit set to -1
+[5月 17 22:29:26.955] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[5月 17 22:29:26.955] [ message] [vmsvc] Core dump limit set to -1
+[5月 17 22:29:26.955] [ message] [vmtoolsd] Tools Version: 10.2.0.7047 (build-7259539)
+[5月 17 22:29:27.301] [ message] [vmsvc] Cannot load message catalog for domain 'hgfsServer', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:29:27.302] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[5月 17 22:29:27.303] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[5月 17 22:29:27.303] [ message] [vmsvc] Cannot load message catalog for domain 'vix', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:29:27.303] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[5月 17 22:29:27.303] [ message] [vmsvc] Cannot load message catalog for domain 'autoUpgrade', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:29:27.303] [ message] [vmtoolsd] Plugin 'autoUpgrade' initialized.
+[5月 17 22:29:27.303] [ message] [vmsvc] Cannot load message catalog for domain 'deployPkg', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:29:27.303] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[5月 17 22:29:27.455] [ message] [vmsvc] Cannot load message catalog for domain 'grabbitmqProxy', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:29:27.455] [ message] [vmtoolsd] Plugin 'grabbitmqProxy' initialized.
+[5月 17 22:29:27.455] [ message] [vmsvc] Cannot load message catalog for domain 'guestInfo', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:29:27.455] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[5月 17 22:29:27.455] [ message] [vmsvc] Cannot load message catalog for domain 'powerops', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:29:27.455] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[5月 17 22:29:27.460] [ message] [resolutionCommon] resolutionCheckForKMS: dlopen succeeded.
+[5月 17 22:29:27.461] [ message] [resolutionCommon] resolutionCheckForKMS: System support available for resolutionKMS.
+[5月 17 22:29:27.461] [ message] [vmsvc] Cannot load message catalog for domain 'resolutionKMS', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:29:27.461] [ message] [vmtoolsd] Plugin 'resolutionKMS' initialized.
+[5月 17 22:29:27.461] [ message] [vmsvc] Cannot load message catalog for domain 'timeSync', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:29:27.461] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[5月 17 22:29:27.461] [ message] [vmsvc] Cannot load message catalog for domain 'vmbackup', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 17 22:29:27.461] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[5月 17 22:29:27.479] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[5月 17 22:29:27.545] [ message] [vix] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[5月 17 22:29:27.551] [ message] [powerops] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[5月 17 22:29:27.711] [ message] [powerops] Script exit code: 0, success = 1
+[5月 17 23:04:56.544] [ message] [powerops] Executing script: '/etc/vmware-tools/suspend-vm-default'
+[5月 17 23:04:56.884] [ message] [powerops] Script exit code: 0, success = 1
+[5月 18 23:47:13.543] [ message] [powerops] Executing script: '/etc/vmware-tools/resume-vm-default'
+[5月 18 23:47:14.166] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[5月 18 23:47:14.166] [ message] [vix] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[5月 18 23:47:14.232] [ message] [powerops] Script exit code: 0, success = 1
+[5月 19 01:37:34.504] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=4400 sec, expected=30 sec. ***
+[5月 19 02:58:29.972] [ message] [powerops] Executing script: '/etc/vmware-tools/suspend-vm-default'
+[5月 19 02:58:30.131] [ message] [powerops] Script exit code: 0, success = 1
+[5月 19 16:06:56.639] [ message] [powerops] Executing script: '/etc/vmware-tools/resume-vm-default'
+[5月 19 16:06:56.801] [ message] [powerops] Script exit code: 0, success = 1
+[5月 19 16:06:56.981] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[5月 19 16:06:56.982] [ message] [vix] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[5月 19 20:56:23.708] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=11197 sec, expected=30 sec. ***
+[5月 19 21:32:45.160] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=202 sec, expected=30 sec. ***
+[5月 19 21:46:17.767] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=83 sec, expected=30 sec. ***
+[5月 19 22:08:36.521] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=109 sec, expected=30 sec. ***
+[5月 19 22:23:44.654] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=68 sec, expected=30 sec. ***
+[5月 20 10:11:45.468] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=37521 sec, expected=30 sec. ***
+[5月 20 12:16:39.671] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=2394 sec, expected=30 sec. ***
+[5月 20 18:06:44.114] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=19433 sec, expected=30 sec. ***
+[5月 20 19:22:05.989] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=4491 sec, expected=30 sec. ***
+[5月 20 20:52:29.108] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=5390 sec, expected=30 sec. ***
+[5月 20 22:27:08.160] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=5679 sec, expected=30 sec. ***
+[5月 21 00:15:09.570] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=6481 sec, expected=30 sec. ***
+[5月 21 00:30:36.647] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=927 sec, expected=30 sec. ***
+[5月 21 00:38:28.990] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=472 sec, expected=30 sec. ***
+[5月 21 21:23:31.092] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=74703 sec, expected=30 sec. ***
+[5月 21 21:34:20.203] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=139 sec, expected=30 sec. ***
+[5月 21 22:14:09.875] [ message] [powerops] Executing script: '/etc/vmware-tools/suspend-vm-default'
+[5月 21 22:14:10.150] [ message] [powerops] Script exit code: 0, success = 1
+[5月 27 22:34:50.749] [ message] [powerops] Executing script: '/etc/vmware-tools/resume-vm-default'
+[5月 27 22:34:50.932] [ message] [powerops] Script exit code: 0, success = 1
+[5月 27 22:34:51.418] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[5月 27 22:34:51.418] [ message] [vix] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[5月 27 23:10:13.167] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=103 sec, expected=30 sec. ***
+[5月 27 23:39:04.157] [ message] [vmtoolsd] Unloading plugin 'vmbackup'.
+[5月 27 23:39:04.157] [ message] [vmtoolsd] Unloading plugin 'timeSync'.
+[5月 27 23:39:04.157] [ message] [vmtoolsd] Unloading plugin 'resolutionKMS'.
+[5月 27 23:39:04.157] [ message] [vmtoolsd] Unloading plugin 'powerops'.
+[5月 27 23:39:04.157] [ message] [vmtoolsd] Unloading plugin 'guestInfo'.
+[5月 27 23:39:04.158] [ message] [vmtoolsd] Unloading plugin 'grabbitmqProxy'.
+[5月 27 23:39:04.159] [ message] [vmtoolsd] Unloading plugin 'deployPkg'.
+[5月 27 23:39:04.159] [ message] [vmtoolsd] Unloading plugin 'autoUpgrade'.
+[5月 27 23:39:04.159] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[5月 27 23:39:04.159] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[5月 28 21:17:47.676] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[5月 28 21:17:47.677] [ message] [vmsvc] Core dump limit set to -1
+[5月 28 21:17:47.743] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[5月 28 21:17:47.743] [ message] [vmsvc] Core dump limit set to -1
+[5月 28 21:17:47.743] [ message] [vmtoolsd] Tools Version: 10.2.0.7047 (build-7259539)
+[5月 28 21:17:48.322] [ message] [vmsvc] Cannot load message catalog for domain 'hgfsServer', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 28 21:17:48.322] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[5月 28 21:17:48.322] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[5月 28 21:17:48.322] [ message] [vmsvc] Cannot load message catalog for domain 'vix', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 28 21:17:48.322] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[5月 28 21:17:48.322] [ message] [vmsvc] Cannot load message catalog for domain 'autoUpgrade', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 28 21:17:48.322] [ message] [vmtoolsd] Plugin 'autoUpgrade' initialized.
+[5月 28 21:17:48.322] [ message] [vmsvc] Cannot load message catalog for domain 'deployPkg', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 28 21:17:48.322] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[5月 28 21:17:48.382] [ message] [vmsvc] Cannot load message catalog for domain 'grabbitmqProxy', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 28 21:17:48.382] [ message] [vmtoolsd] Plugin 'grabbitmqProxy' initialized.
+[5月 28 21:17:48.382] [ message] [vmsvc] Cannot load message catalog for domain 'guestInfo', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 28 21:17:48.382] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[5月 28 21:17:48.382] [ message] [vmsvc] Cannot load message catalog for domain 'powerops', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 28 21:17:48.382] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[5月 28 21:17:48.409] [ message] [resolutionCommon] resolutionCheckForKMS: dlopen succeeded.
+[5月 28 21:17:48.411] [ message] [resolutionCommon] resolutionCheckForKMS: System support available for resolutionKMS.
+[5月 28 21:17:48.411] [ message] [vmsvc] Cannot load message catalog for domain 'resolutionKMS', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 28 21:17:48.411] [ message] [vmtoolsd] Plugin 'resolutionKMS' initialized.
+[5月 28 21:17:48.411] [ message] [vmsvc] Cannot load message catalog for domain 'timeSync', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 28 21:17:48.411] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[5月 28 21:17:48.411] [ message] [vmsvc] Cannot load message catalog for domain 'vmbackup', language 'zh', catalog dir '/etc/vmware-tools'.
+[5月 28 21:17:48.411] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[5月 28 21:17:48.413] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[5月 28 21:17:48.526] [ message] [vix] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[5月 28 21:17:48.558] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[5月 28 21:17:48.558] [ message] [vix] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[5月 28 21:17:48.559] [ message] [powerops] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[5月 28 21:17:48.827] [ message] [powerops] Script exit code: 0, success = 1
+[5月 29 20:24:50.116] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=74622 sec, expected=30 sec. ***
+[5月 29 21:19:19.326] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=1259 sec, expected=30 sec. ***
+[5月 30 20:40:12.764] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=79508 sec, expected=30 sec. ***
+[5月 30 22:18:18.600] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=275 sec, expected=30 sec. ***
+[5月 30 23:01:20.064] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=92 sec, expected=30 sec. ***
+[5月 30 23:23:30.870] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=280 sec, expected=30 sec. ***
+[5月 31 03:31:34.261] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=14793 sec, expected=30 sec. ***
+[5月 31 07:32:58.045] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=14423 sec, expected=30 sec. ***
+[5月 31 07:51:34.730] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=1117 sec, expected=30 sec. ***
+[5月 31 08:16:43.675] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=1509 sec, expected=30 sec. ***
+[5月 31 08:35:46.205] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=1113 sec, expected=30 sec. ***
+[5月 31 10:04:26.894] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=5290 sec, expected=30 sec. ***
+[5月 31 20:51:06.203] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=38710 sec, expected=30 sec. ***
+[5月 31 21:17:36.622] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=90 sec, expected=30 sec. ***
+[6月 01 05:16:18.297] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=26190 sec, expected=30 sec. ***
+[6月 01 05:30:27.059] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=849 sec, expected=30 sec. ***
+[6月 01 05:40:18.125] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=591 sec, expected=30 sec. ***
+[6月 01 05:54:57.029] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=849 sec, expected=30 sec. ***
+[6月 01 06:09:05.968] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=848 sec, expected=30 sec. ***
+[6月 01 07:41:09.675] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=5494 sec, expected=30 sec. ***
+[6月 01 07:55:48.799] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=849 sec, expected=30 sec. ***
+[6月 01 09:54:25.958] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=7087 sec, expected=30 sec. ***
+[6月 01 09:56:20.505] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=115 sec, expected=30 sec. ***
+[6月 02 10:57:13.182] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=90053 sec, expected=30 sec. ***
+[6月 02 12:06:13.072] [ message] [vmtoolsd] Unloading plugin 'vmbackup'.
+[6月 02 12:06:13.072] [ message] [vmtoolsd] Unloading plugin 'timeSync'.
+[6月 02 12:06:13.073] [ message] [vmtoolsd] Unloading plugin 'resolutionKMS'.
+[6月 02 12:06:13.073] [ message] [vmtoolsd] Unloading plugin 'powerops'.
+[6月 02 12:06:13.073] [ message] [vmtoolsd] Unloading plugin 'guestInfo'.
+[6月 02 12:06:13.073] [ message] [vmtoolsd] Unloading plugin 'grabbitmqProxy'.
+[6月 02 12:06:13.075] [ message] [vmtoolsd] Unloading plugin 'deployPkg'.
+[6月 02 12:06:13.075] [ message] [vmtoolsd] Unloading plugin 'autoUpgrade'.
+[6月 02 12:06:13.075] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[6月 02 12:06:13.075] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[6月 02 12:09:35.470] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[6月 02 12:09:35.557] [ message] [vmsvc] Core dump limit set to -1
+[6月 02 12:09:35.720] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[6月 02 12:09:35.720] [ message] [vmsvc] Core dump limit set to -1
+[6月 02 12:09:35.720] [ message] [vmtoolsd] Tools Version: 10.2.0.7047 (build-7259539)
+[6月 02 12:09:36.078] [ message] [vmsvc] Cannot load message catalog for domain 'hgfsServer', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:09:36.078] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[6月 02 12:09:36.078] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[6月 02 12:09:36.078] [ message] [vmsvc] Cannot load message catalog for domain 'vix', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:09:36.078] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[6月 02 12:09:36.078] [ message] [vmsvc] Cannot load message catalog for domain 'autoUpgrade', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:09:36.078] [ message] [vmtoolsd] Plugin 'autoUpgrade' initialized.
+[6月 02 12:09:36.078] [ message] [vmsvc] Cannot load message catalog for domain 'deployPkg', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:09:36.078] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[6月 02 12:09:36.122] [ message] [vmsvc] Cannot load message catalog for domain 'grabbitmqProxy', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:09:36.122] [ message] [vmtoolsd] Plugin 'grabbitmqProxy' initialized.
+[6月 02 12:09:36.122] [ message] [vmsvc] Cannot load message catalog for domain 'guestInfo', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:09:36.122] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[6月 02 12:09:36.122] [ message] [vmsvc] Cannot load message catalog for domain 'powerops', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:09:36.122] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[6月 02 12:09:36.127] [ message] [resolutionCommon] resolutionCheckForKMS: dlopen succeeded.
+[6月 02 12:09:36.128] [ message] [resolutionCommon] resolutionCheckForKMS: System support available for resolutionKMS.
+[6月 02 12:09:36.128] [ message] [vmsvc] Cannot load message catalog for domain 'resolutionKMS', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:09:36.128] [ message] [vmtoolsd] Plugin 'resolutionKMS' initialized.
+[6月 02 12:09:36.128] [ message] [vmsvc] Cannot load message catalog for domain 'timeSync', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:09:36.128] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[6月 02 12:09:36.128] [ message] [vmsvc] Cannot load message catalog for domain 'vmbackup', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:09:36.128] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[6月 02 12:09:36.131] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[6月 02 12:09:36.253] [ message] [vix] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[6月 02 12:09:36.289] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[6月 02 12:09:36.289] [ message] [vix] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[6月 02 12:09:36.290] [ message] [powerops] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[6月 02 12:09:36.616] [ message] [powerops] Script exit code: 0, success = 1
+[6月 02 12:23:39.635] [ message] [vmtoolsd] Unloading plugin 'vmbackup'.
+[6月 02 12:23:39.635] [ message] [vmtoolsd] Unloading plugin 'timeSync'.
+[6月 02 12:23:39.635] [ message] [vmtoolsd] Unloading plugin 'resolutionKMS'.
+[6月 02 12:23:39.635] [ message] [vmtoolsd] Unloading plugin 'powerops'.
+[6月 02 12:23:39.635] [ message] [vmtoolsd] Unloading plugin 'guestInfo'.
+[6月 02 12:23:39.635] [ message] [vmtoolsd] Unloading plugin 'grabbitmqProxy'.
+[6月 02 12:23:39.635] [ message] [vmtoolsd] Unloading plugin 'deployPkg'.
+[6月 02 12:23:39.635] [ message] [vmtoolsd] Unloading plugin 'autoUpgrade'.
+[6月 02 12:23:39.635] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[6月 02 12:23:39.635] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[6月 02 12:23:53.471] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[6月 02 12:23:53.567] [ message] [vmsvc] Core dump limit set to -1
+[6月 02 12:23:53.657] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[6月 02 12:23:53.657] [ message] [vmsvc] Core dump limit set to -1
+[6月 02 12:23:53.657] [ message] [vmtoolsd] Tools Version: 10.2.0.7047 (build-7259539)
+[6月 02 12:23:53.935] [ message] [vmsvc] Cannot load message catalog for domain 'hgfsServer', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:23:53.935] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[6月 02 12:23:53.935] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[6月 02 12:23:53.935] [ message] [vmsvc] Cannot load message catalog for domain 'vix', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:23:53.935] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[6月 02 12:23:53.935] [ message] [vmsvc] Cannot load message catalog for domain 'autoUpgrade', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:23:53.935] [ message] [vmtoolsd] Plugin 'autoUpgrade' initialized.
+[6月 02 12:23:53.935] [ message] [vmsvc] Cannot load message catalog for domain 'deployPkg', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:23:53.935] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[6月 02 12:23:53.981] [ message] [vmsvc] Cannot load message catalog for domain 'grabbitmqProxy', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:23:53.981] [ message] [vmtoolsd] Plugin 'grabbitmqProxy' initialized.
+[6月 02 12:23:53.981] [ message] [vmsvc] Cannot load message catalog for domain 'guestInfo', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:23:53.981] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[6月 02 12:23:53.981] [ message] [vmsvc] Cannot load message catalog for domain 'powerops', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:23:53.981] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[6月 02 12:23:54.071] [ message] [resolutionCommon] resolutionCheckForKMS: dlopen succeeded.
+[6月 02 12:23:54.072] [ message] [resolutionCommon] resolutionCheckForKMS: System support available for resolutionKMS.
+[6月 02 12:23:54.072] [ message] [vmsvc] Cannot load message catalog for domain 'resolutionKMS', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:23:54.072] [ message] [vmtoolsd] Plugin 'resolutionKMS' initialized.
+[6月 02 12:23:54.072] [ message] [vmsvc] Cannot load message catalog for domain 'timeSync', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:23:54.072] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[6月 02 12:23:54.072] [ message] [vmsvc] Cannot load message catalog for domain 'vmbackup', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 02 12:23:54.072] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[6月 02 12:23:54.104] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[6月 02 12:23:54.163] [ message] [vix] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[6月 02 13:04:32.939] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=2229 sec, expected=30 sec. ***
+[6月 02 13:14:25.392] [ message] [powerops] Executing script: '/etc/vmware-tools/suspend-vm-default'
+[6月 02 13:14:25.523] [ message] [powerops] Script exit code: 0, success = 1
+[6月 02 13:14:41.043] [ message] [powerops] Executing script: '/etc/vmware-tools/resume-vm-default'
+[6月 02 13:14:41.211] [ message] [powerops] Script exit code: 0, success = 1
+[6月 02 13:14:41.448] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[6月 02 13:14:41.448] [ message] [vix] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[6月 02 13:27:44.343] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=266 sec, expected=30 sec. ***
+[6月 02 20:30:58.288] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=25208 sec, expected=30 sec. ***
+[6月 02 22:20:15.622] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=6557 sec, expected=30 sec. ***
+[6月 03 09:57:22.076] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=35371 sec, expected=30 sec. ***
+[6月 03 10:46:02.797] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=1649 sec, expected=30 sec. ***
+[6月 03 10:54:56.399] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=534 sec, expected=30 sec. ***
+[6月 03 19:12:12.710] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=27826 sec, expected=30 sec. ***
+[6月 03 20:07:41.681] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=299 sec, expected=30 sec. ***
+[6月 03 21:08:07.824] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=1856 sec, expected=30 sec. ***
+[6月 03 21:37:53.540] [ message] [vmtoolsd] Unloading plugin 'vmbackup'.
+[6月 03 21:37:53.541] [ message] [vmtoolsd] Unloading plugin 'timeSync'.
+[6月 03 21:37:53.541] [ message] [vmtoolsd] Unloading plugin 'resolutionKMS'.
+[6月 03 21:37:53.541] [ message] [vmtoolsd] Unloading plugin 'powerops'.
+[6月 03 21:37:53.541] [ message] [vmtoolsd] Unloading plugin 'guestInfo'.
+[6月 03 21:37:53.541] [ message] [vmtoolsd] Unloading plugin 'grabbitmqProxy'.
+[6月 03 21:37:53.546] [ message] [vmtoolsd] Unloading plugin 'deployPkg'.
+[6月 03 21:37:53.546] [ message] [vmtoolsd] Unloading plugin 'autoUpgrade'.
+[6月 03 21:37:53.547] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[6月 03 21:37:53.547] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[6月 03 21:56:45.394] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[6月 03 21:56:45.502] [ message] [vmsvc] Core dump limit set to -1
+[6月 03 21:56:45.652] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[6月 03 21:56:45.652] [ message] [vmsvc] Core dump limit set to -1
+[6月 03 21:56:45.652] [ message] [vmtoolsd] Tools Version: 10.2.0.7047 (build-7259539)
+[6月 03 21:56:46.151] [ message] [vmsvc] Cannot load message catalog for domain 'hgfsServer', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 21:56:46.151] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[6月 03 21:56:46.151] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[6月 03 21:56:46.151] [ message] [vmsvc] Cannot load message catalog for domain 'vix', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 21:56:46.151] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[6月 03 21:56:46.151] [ message] [vmsvc] Cannot load message catalog for domain 'autoUpgrade', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 21:56:46.151] [ message] [vmtoolsd] Plugin 'autoUpgrade' initialized.
+[6月 03 21:56:46.151] [ message] [vmsvc] Cannot load message catalog for domain 'deployPkg', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 21:56:46.151] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[6月 03 21:56:46.374] [ message] [vmsvc] Cannot load message catalog for domain 'grabbitmqProxy', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 21:56:46.374] [ message] [vmtoolsd] Plugin 'grabbitmqProxy' initialized.
+[6月 03 21:56:46.374] [ message] [vmsvc] Cannot load message catalog for domain 'guestInfo', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 21:56:46.374] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[6月 03 21:56:46.374] [ message] [vmsvc] Cannot load message catalog for domain 'powerops', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 21:56:46.374] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[6月 03 21:56:46.485] [ message] [resolutionCommon] resolutionCheckForKMS: dlopen succeeded.
+[6月 03 21:56:46.487] [ message] [resolutionCommon] resolutionCheckForKMS: System support available for resolutionKMS.
+[6月 03 21:56:46.487] [ message] [vmsvc] Cannot load message catalog for domain 'resolutionKMS', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 21:56:46.487] [ message] [vmtoolsd] Plugin 'resolutionKMS' initialized.
+[6月 03 21:56:46.487] [ message] [vmsvc] Cannot load message catalog for domain 'timeSync', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 21:56:46.487] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[6月 03 21:56:46.487] [ message] [vmsvc] Cannot load message catalog for domain 'vmbackup', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 21:56:46.487] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[6月 03 21:56:46.489] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[6月 03 21:56:46.593] [ message] [vix] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[6月 03 21:56:47.663] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[6月 03 21:56:47.663] [ message] [vix] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[6月 03 21:56:47.664] [ message] [powerops] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[6月 03 21:56:47.987] [ message] [powerops] Script exit code: 0, success = 1
+[6月 03 22:04:41.597] [ message] [powerops] Executing script: '/etc/vmware-tools/poweroff-vm-default'
+[6月 03 22:04:41.735] [ message] [powerops] Script exit code: 0, success = 1
+[6月 03 22:04:41.737] [ message] [powerops] Initiating halt.
+[6月 03 22:05:32.284] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[6月 03 22:05:32.473] [ message] [vmsvc] Core dump limit set to -1
+[6月 03 22:05:32.543] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[6月 03 22:05:32.543] [ message] [vmsvc] Core dump limit set to -1
+[6月 03 22:05:32.543] [ message] [vmtoolsd] Tools Version: 10.2.0.7047 (build-7259539)
+[6月 03 22:05:33.499] [ message] [vmsvc] Cannot load message catalog for domain 'hgfsServer', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 22:05:33.499] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[6月 03 22:05:33.499] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[6月 03 22:05:33.499] [ message] [vmsvc] Cannot load message catalog for domain 'vix', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 22:05:33.499] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[6月 03 22:05:33.499] [ message] [vmsvc] Cannot load message catalog for domain 'autoUpgrade', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 22:05:33.499] [ message] [vmtoolsd] Plugin 'autoUpgrade' initialized.
+[6月 03 22:05:33.499] [ message] [vmsvc] Cannot load message catalog for domain 'deployPkg', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 22:05:33.499] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[6月 03 22:05:33.530] [ message] [vmsvc] Cannot load message catalog for domain 'grabbitmqProxy', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 22:05:33.530] [ message] [vmtoolsd] Plugin 'grabbitmqProxy' initialized.
+[6月 03 22:05:33.530] [ message] [vmsvc] Cannot load message catalog for domain 'guestInfo', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 22:05:33.530] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[6月 03 22:05:33.530] [ message] [vmsvc] Cannot load message catalog for domain 'powerops', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 22:05:33.530] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[6月 03 22:05:33.542] [ message] [resolutionCommon] resolutionCheckForKMS: dlopen succeeded.
+[6月 03 22:05:33.545] [ message] [resolutionCommon] resolutionCheckForKMS: System support available for resolutionKMS.
+[6月 03 22:05:33.545] [ message] [vmsvc] Cannot load message catalog for domain 'resolutionKMS', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 22:05:33.545] [ message] [vmtoolsd] Plugin 'resolutionKMS' initialized.
+[6月 03 22:05:33.545] [ message] [vmsvc] Cannot load message catalog for domain 'timeSync', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 22:05:33.545] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[6月 03 22:05:33.545] [ message] [vmsvc] Cannot load message catalog for domain 'vmbackup', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 03 22:05:33.545] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[6月 03 22:05:33.547] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[6月 03 22:05:33.627] [ message] [vix] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[6月 03 22:05:33.704] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[6月 03 22:05:33.704] [ message] [vix] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[6月 03 22:05:33.705] [ message] [powerops] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[6月 03 22:05:33.832] [ message] [powerops] Script exit code: 0, success = 1
+[6月 03 22:37:33.366] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=300 sec, expected=30 sec. ***
+[6月 04 00:00:04.379] [ message] [vmtoolsd] Unloading plugin 'vmbackup'.
+[6月 04 00:00:04.379] [ message] [vmtoolsd] Unloading plugin 'timeSync'.
+[6月 04 00:00:04.379] [ message] [vmtoolsd] Unloading plugin 'resolutionKMS'.
+[6月 04 00:00:04.379] [ message] [vmtoolsd] Unloading plugin 'powerops'.
+[6月 04 00:00:04.379] [ message] [vmtoolsd] Unloading plugin 'guestInfo'.
+[6月 04 00:00:04.379] [ message] [vmtoolsd] Unloading plugin 'grabbitmqProxy'.
+[6月 04 00:00:04.381] [ message] [vmtoolsd] Unloading plugin 'deployPkg'.
+[6月 04 00:00:04.381] [ message] [vmtoolsd] Unloading plugin 'autoUpgrade'.
+[6月 04 00:00:04.381] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[6月 04 00:00:04.382] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[6月 05 20:36:05.417] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[6月 05 20:36:05.418] [ message] [vmsvc] Core dump limit set to -1
+[6月 05 20:36:05.501] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[6月 05 20:36:05.501] [ message] [vmsvc] Core dump limit set to -1
+[6月 05 20:36:05.501] [ message] [vmtoolsd] Tools Version: 10.2.0.7047 (build-7259539)
+[6月 05 20:36:05.826] [ message] [vmsvc] Cannot load message catalog for domain 'hgfsServer', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 05 20:36:05.826] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[6月 05 20:36:05.826] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[6月 05 20:36:05.826] [ message] [vmsvc] Cannot load message catalog for domain 'vix', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 05 20:36:05.826] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[6月 05 20:36:05.826] [ message] [vmsvc] Cannot load message catalog for domain 'autoUpgrade', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 05 20:36:05.826] [ message] [vmtoolsd] Plugin 'autoUpgrade' initialized.
+[6月 05 20:36:05.826] [ message] [vmsvc] Cannot load message catalog for domain 'deployPkg', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 05 20:36:05.826] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[6月 05 20:36:05.902] [ message] [vmsvc] Cannot load message catalog for domain 'grabbitmqProxy', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 05 20:36:05.902] [ message] [vmtoolsd] Plugin 'grabbitmqProxy' initialized.
+[6月 05 20:36:05.902] [ message] [vmsvc] Cannot load message catalog for domain 'guestInfo', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 05 20:36:05.902] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[6月 05 20:36:05.902] [ message] [vmsvc] Cannot load message catalog for domain 'powerops', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 05 20:36:05.902] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[6月 05 20:36:05.907] [ message] [resolutionCommon] resolutionCheckForKMS: dlopen succeeded.
+[6月 05 20:36:05.909] [ message] [resolutionCommon] resolutionCheckForKMS: System support available for resolutionKMS.
+[6月 05 20:36:05.909] [ message] [vmsvc] Cannot load message catalog for domain 'resolutionKMS', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 05 20:36:05.909] [ message] [vmtoolsd] Plugin 'resolutionKMS' initialized.
+[6月 05 20:36:05.909] [ message] [vmsvc] Cannot load message catalog for domain 'timeSync', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 05 20:36:05.909] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[6月 05 20:36:05.909] [ message] [vmsvc] Cannot load message catalog for domain 'vmbackup', language 'zh', catalog dir '/etc/vmware-tools'.
+[6月 05 20:36:05.909] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[6月 05 20:36:05.911] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[6月 05 20:36:05.986] [ message] [vix] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[6月 05 20:36:06.103] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[6月 05 20:36:06.104] [ message] [vix] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[6月 05 20:36:06.104] [ message] [powerops] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[6月 05 20:36:06.417] [ message] [powerops] Script exit code: 0, success = 1
+[6月 05 20:36:57.183] [ message] [powerops] Executing script: '/etc/vmware-tools/suspend-vm-default'
+[6月 05 20:36:57.313] [ message] [powerops] Script exit code: 0, success = 1
+[6月 05 20:37:12.890] [ message] [powerops] Executing script: '/etc/vmware-tools/resume-vm-default'
+[6月 05 20:37:13.040] [ message] [powerops] Script exit code: 0, success = 1
+[6月 05 20:37:13.198] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[6月 05 20:37:13.198] [ message] [vix] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[6月 05 21:20:56.263] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=1355 sec, expected=30 sec. ***
+[6月 05 22:13:58.612] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=92 sec, expected=30 sec. ***
+[6月 05 22:22:31.279] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=63 sec, expected=30 sec. ***
+[6月 05 22:34:20.591] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=649 sec, expected=30 sec. ***
+[6月 06 21:25:18.105] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=78678 sec, expected=30 sec. ***
+[6月 07 21:01:01.242] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=75151 sec, expected=30 sec. ***
+[6月 07 21:46:05.600] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=94 sec, expected=30 sec. ***
+[6月 08 02:56:02.264] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=13400 sec, expected=30 sec. ***
+[6月 08 03:26:44.535] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=1812 sec, expected=30 sec. ***
+[6月 08 04:04:59.627] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=2204 sec, expected=30 sec. ***
+[6月 08 05:09:20.569] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=3861 sec, expected=30 sec. ***
+[6月 08 06:57:22.102] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=6482 sec, expected=30 sec. ***
+[6月 08 07:15:59.272] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=1117 sec, expected=30 sec. ***
+[6月 08 07:34:36.300] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=1117 sec, expected=30 sec. ***
+[6月 08 07:53:13.728] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=1117 sec, expected=30 sec. ***
+[6月 08 08:17:53.805] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=1420 sec, expected=30 sec. ***
+[6月 08 09:28:46.680] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=4253 sec, expected=30 sec. ***
+[6月 08 09:47:53.996] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=1117 sec, expected=30 sec. ***
+[6月 08 10:06:31.535] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=1118 sec, expected=30 sec. ***
+[6月 08 10:25:39.052] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=1118 sec, expected=30 sec. ***
+[6月 08 10:44:17.126] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=1118 sec, expected=30 sec. ***
+[6月 08 11:02:54.327] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=1117 sec, expected=30 sec. ***
+[6月 08 19:57:07.510] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=32019 sec, expected=30 sec. ***
+[6月 09 11:49:35.638] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=57058 sec, expected=30 sec. ***
+[6月 09 14:14:17.557] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=5652 sec, expected=30 sec. ***
+[6月 09 15:42:47.166] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=2790 sec, expected=30 sec. ***
+[6月 09 16:52:31.814] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=2174 sec, expected=30 sec. ***
+[6月 09 19:51:13.989] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=4601 sec, expected=30 sec. ***
+[6月 09 20:10:06.306] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=442 sec, expected=30 sec. ***
+[6月 09 20:29:11.467] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=125 sec, expected=30 sec. ***
+[6月 09 22:01:41.237] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=60 sec, expected=30 sec. ***
+[6月 09 22:09:07.676] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=88 sec, expected=30 sec. ***
+[6月 09 23:02:04.848] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=1077 sec, expected=30 sec. ***
+[6月 09 23:05:55.214] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=81 sec, expected=30 sec. ***
+[6月 10 20:26:03.298] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=70640 sec, expected=30 sec. ***
+[6月 10 21:02:37.405] [ warning] [guestinfo] *** WARNING: GuestInfo collection interval longer than expected; actual=214 sec, expected=30 sec. ***

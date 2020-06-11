@@ -1,0 +1,30 @@
++ date
++ echo 2018年 06月 02日 星期六 13:14:25 CST : Executing '/etc/vmware-tools/scripts/vmware/network suspend-vm'
+2018年 06月 02日 星期六 13:14:25 CST : Executing '/etc/vmware-tools/scripts/vmware/network suspend-vm'
++ echo
+
++ dirname /etc/vmware-tools/scripts/vmware/network
++ . /etc/vmware-tools/scripts/vmware/../../statechange.subr
++ main suspend-vm
++ exitCode=0
++ activeList=/var/run/vmware-active-nics
++ TranquilizeNetworkManager
++ which dbus-send
++ dbusSend=/usr/bin/dbus-send
++ rc=0
++ [ 0 -ne 0 ]
++ /usr/bin/dbus-send --system+  --print-reply --dest=org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.DBus.Properties.Get string:org.freedesktop.NetworkManager string:State
+awk /variant/ {print $3;}
++ nm_state=70
++ [ -z 70 ]
++ /usr/bin/dbus-send --system --print-reply --dest=org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager.Enable boolean:false
+method return time=1527916465.492148 sender=:1.10 -> destination=:1.99 serial=512 reply_serial=2
++ rc=0
++ [ 0 -eq 0 ]
++ return 0
++ exitCode=0
++ [ 0 != 0 ]
++ return 0
++ date
++ echo 2018年 06月 02日 星期六 13:14:25 CST : Finished '/etc/vmware-tools/scripts/vmware/network suspend-vm'
+2018年 06月 02日 星期六 13:14:25 CST : Finished '/etc/vmware-tools/scripts/vmware/network suspend-vm'

@@ -1,0 +1,169 @@
+Thu May 17 22:21:09 2018 vmware-install.pl start
+open-vm-tools packages are available from the OS vendor and VMware recommends 
+using open-vm-tools packages. See http://kb.vmware.com/kb/2073803 for more 
+information.
+Do you still want to proceed with this installation? [no] 
+INPUT: [y]
+
+Creating a new VMware Tools installer database using the tar4 format.
+
+Installing VMware Tools.
+
+In which directory do you want to install the binary files? 
+[/usr/bin] 
+INPUT: [y]
+
+The path "y" is a relative path. Please enter an absolute path.
+
+In which directory do you want to install the binary files? 
+[/usr/bin] 
+INPUT: [/usr/bin]  default
+
+What is the directory that contains the init directories (rc0.d/ to rc6.d/)? 
+[/etc] 
+INPUT: [y]
+
+The path "y" is not an existing directory.
+
+What is the directory that contains the init directories (rc0.d/ to rc6.d/)? 
+[/etc] 
+INPUT: [/etc]  default
+
+What is the directory that contains the init scripts? 
+[/etc/init.d] 
+INPUT: [/etc/init.d]  default
+
+In which directory do you want to install the daemon files? 
+[/usr/sbin] 
+INPUT: [/usr/sbin]  default
+
+In which directory do you want to install the library files? 
+[/usr/lib/vmware-tools] 
+INPUT: [/usr/lib/vmware-tools]  default
+
+The path "/usr/lib/vmware-tools" does not exist currently. This program is 
+going to create it, including needed parent directories. Is this what you want?
+[yes] 
+INPUT: [yes]  default
+
+In which directory do you want to install the common agent library files? 
+[/usr/lib] 
+INPUT: [/usr/lib]  default
+
+In which directory do you want to install the common agent transient files? 
+[/var/lib] 
+INPUT: [/var/lib]  default
+
+In which directory do you want to install the documentation files? 
+[/usr/share/doc/vmware-tools] 
+INPUT: [/usr/share/doc/vmware-tools]  default
+
+The path "/usr/share/doc/vmware-tools" does not exist currently. This program 
+is going to create it, including needed parent directories. Is this what you 
+want? [yes] 
+INPUT: [y]
+
+The installation of VMware Tools 10.2.0 build-7259539 for Linux completed 
+successfully. You can decide to remove this software from your system at any 
+time by invoking the following command: "/usr/bin/vmware-uninstall-tools.pl".
+
+Before running VMware Tools for the first time, you need to configure it by 
+invoking the following command: "/usr/bin/vmware-config-tools.pl". Do you want 
+this program to invoke the command for you now? [yes] 
+INPUT: [yes]  default
+
+Initializing...
+
+
+Making sure services for VMware Tools are stopped.
+
+Stopping Thinprint services in the virtual machine:
+   Stopping Virtual Printing daemon:[71G done
+Stopping VMware Tools services in the virtual machine:
+   Guest operating system daemon:[71G done
+   VMware User Agent (vmware-user):[71G done
+   Unmounting HGFS shares:[71G done
+   Guest filesystem driver:[71G done
+
+
+The module vmci has already been installed on this system by another installer 
+or package and will not be modified by this installer.
+
+The module vsock has already been installed on this system by another installer
+or package and will not be modified by this installer.
+
+The module vmxnet3 has already been installed on this system by another 
+installer or package and will not be modified by this installer.
+
+The module pvscsi has already been installed on this system by another 
+installer or package and will not be modified by this installer.
+
+The module vmmemctl has already been installed on this system by another 
+installer or package and will not be modified by this installer.
+
+The VMware Host-Guest Filesystem allows for shared folders between the host OS 
+and the guest OS in a Fusion or Workstation virtual environment.  Do you wish 
+to enable this feature? [yes] 
+INPUT: [y]
+
+The vmxnet driver is no longer supported on kernels 3.3 and greater. Please 
+upgrade to a newer virtual NIC. (e.g., vmxnet3 or e1000e)
+
+The vmblock enables dragging or copying files between host and guest in a 
+Fusion or Workstation virtual environment.  Do you wish to enable this feature?
+[yes] 
+INPUT: [yes]  default
+
+VMware automatic kernel modules enables automatic building and installation of
+VMware kernel modules at boot that are not already present. This feature can
+be enabled/disabled by re-running vmware-config-tools.pl.
+
+Would you like to enable VMware automatic kernel modules?
+[yes] 
+INPUT: [yes]  default
+
+Thinprint provides driver-free printing. Do you wish to enable this feature? 
+[yes] 
+INPUT: [yes]  default
+
+
+Disabling timer-based audio scheduling in pulseaudio.
+
+Do you want to enable Guest Authentication (vgauth)? Enabling vgauth is needed 
+if you want to enable Common Agent (caf). [yes] 
+INPUT: [yes]  default
+
+Do you want to enable Common Agent (caf)? [yes] 
+INPUT: [yes]  default
+
+
+
+Detected X server version 1.19.6
+
+
+
+Distribution provided drivers for Xorg X server are used.
+
+Skipping X configuration because X drivers are not included.
+
+Creating a new initrd boot image for the kernel.
+update-initramfs: Generating /boot/initrd.img-4.15.0-20-generic
+Generating the key and certificate files.
+Successfully generated the key and certificate files.
+The configuration of VMware Tools 10.2.0 build-7259539 for Linux for this 
+running kernel completed successfully.
+
+You must restart your X session before any mouse or graphics changes take 
+effect.
+
+To enable advanced X features (e.g., guest resolution fit, drag and drop, and 
+file and text copy/paste), you will need to do one (or more) of the following:
+1. Manually start /usr/bin/vmware-user
+2. Log out and log back into your desktop session
+3. Restart your X session.
+
+Enjoy,
+
+--the VMware team
+
+Thu May 17 22:22:14 2018 vmware-install.pl end

@@ -1,0 +1,15 @@
++ date
++ echo 2018年 06月 05日 星期二 20:36:06 CST : Executing '/etc/vmware-tools/scripts/vmware/network poweron-vm'
+2018年 06月 05日 星期二 20:36:06 CST : Executing '/etc/vmware-tools/scripts/vmware/network poweron-vm'
++ echo
+
++ dirname /etc/vmware-tools/scripts/vmware/network
++ . /etc/vmware-tools/scripts/vmware/../../statechange.subr
++ main poweron-vm
++ exitCode=0
++ activeList=/var/run/vmware-active-nics
++ rm -f /var/run/vmware-active-nics
++ return 0
++ date
++ echo 2018年 06月 05日 星期二 20:36:06 CST : Finished '/etc/vmware-tools/scripts/vmware/network poweron-vm'
+2018年 06月 05日 星期二 20:36:06 CST : Finished '/etc/vmware-tools/scripts/vmware/network poweron-vm'

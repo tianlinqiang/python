@@ -1,0 +1,26 @@
++ date
++ echo 2018年 06月 05日 星期二 20:37:12 CST : Executing '/etc/vmware-tools/scripts/vmware/network resume-vm'
+2018年 06月 05日 星期二 20:37:12 CST : Executing '/etc/vmware-tools/scripts/vmware/network resume-vm'
++ echo
+
++ dirname /etc/vmware-tools/scripts/vmware/network
++ . /etc/vmware-tools/scripts/vmware/../../statechange.subr
++ main resume-vm
++ exitCode=0
++ activeList=/var/run/vmware-active-nics
++ WakeNetworkManager
++ which dbus-send
++ dbusSend=/usr/bin/dbus-send
++ rc=0
++ [ 0 = 0 ]
++ /usr/bin/dbus-send --system --print-reply --dest=org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager.Enable boolean:true
+method return time=1528202233.019816 sender=:1.11 -> destination=:1.99 serial=460 reply_serial=2
++ rc=0
++ [ 0 = 0 ]
++ return 0
++ exitCode=0
++ [ 0 != 0 ]
++ return 0
++ date
++ echo 2018年 06月 05日 星期二 20:37:13 CST : Finished '/etc/vmware-tools/scripts/vmware/network resume-vm'
+2018年 06月 05日 星期二 20:37:13 CST : Finished '/etc/vmware-tools/scripts/vmware/network resume-vm'
