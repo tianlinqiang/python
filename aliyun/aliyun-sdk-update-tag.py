@@ -4,7 +4,7 @@ import sys
 import os
 import subprocess
 import configparser
-
+import traceback
 
 from aliyunsdkcore.client import AcsClient
 from aliyunsdkcore.acs_exception.exceptions import ClientException
@@ -88,7 +88,9 @@ def update_tag():
         RequestId = str(response, encoding='utf-8')
         print(RequestId)
     except Exception as e:
-        log = '"ResourceType:'+ResourceType+'  ResourceIds:'+ResourceIds+'  RegionId:'+RegionId+'  ResourceIds not use"'
+        print("e.message:%s\t" %(e.message)) 
+       
+        log = '"ResourceType:'+ResourceType+'  ResourceIds:'+ResourceIds+'  RegionId:'+RegionId+' messsge:'+e.message+'"'
         cmd_log = "echo "+ log + ">> update_tag.log"
         log_file(cmd_log)
         #print ("%s-->%s-->%s  update fail" %(ResourceType,ResourceIds,RegionId))
