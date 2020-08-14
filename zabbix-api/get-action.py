@@ -12,7 +12,7 @@ headers = {'Content-Type': 'application/json-rpc'}  # zabbix地址
 server_ip = '192.168.81.100'
 # zabbix url
 url = 'http://%s/zabbix/api_jsonrpc.php' % server_ip
-host = 'https://cmdb.yeahmobi.com/api/v1'
+host = 'https:xxxxxxxxxxxxxxxxxxxxx'
 data_dir = ''
 def get_access(tokens):
 
