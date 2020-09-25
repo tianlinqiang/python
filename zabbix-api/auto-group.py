@@ -10,9 +10,9 @@ sys.setdefaultencoding('utf-8')
 
 # 定义url头部信息
 headers = {'Content-Type': 'application/json-rpc'}  # zabbix地址
-server_ip = '10.1.255.21:8888'
+server_ip = '10.1xxxxxxx:8888'
 url = 'http://%s/zabbix/api_jsonrpc.php' % server_ip
-host = 'https://cmdb.yeahmobi.com/api/v1'
+host = 'https://xxxxxxxxxxxxxxxxx/api/v1'
 
 # data_dir = '/etc/zabbix/python_script/data_json/'
 # path_access = '/etc/zabbix/python_script/'
